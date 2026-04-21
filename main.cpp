@@ -14,16 +14,7 @@ return Number;
 
 bool IsLeapyear(short Year)
 {
-    if(Year%400==0 ||(Year%4==0 && Year%100!=0))
-    {
-
-        return true;
-    }
-
-    else
-        {
-        return false;
-        }
+   return(Year%400==0) || (Year%4==0 && Year%100!=0);
 }
 
 int main()
