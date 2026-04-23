@@ -26,11 +26,6 @@ short daysinMonth(short month,short year)
     return (month==2)? (IsLeapyear(year)? 29 : 28) : (month=arr31[month-1]);
 }
 
-bool Theyear(short Year)
-{
-  return IsLeapyear(Year)? 366 : 365;
-}
-
 short theResetofTheYear(short Day,short Month,short Year)
 {
 
